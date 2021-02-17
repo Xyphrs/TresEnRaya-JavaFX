@@ -7,20 +7,15 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.input.MouseEvent;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Controller {
     @FXML private RadioButton radiobutton1;
     @FXML private RadioButton radiobutton2;
     @FXML private RadioButton radiobutton3;
     @FXML private Button play;
-    @FXML private Button r0c0;
-    @FXML private Button r0c1;
-    @FXML private Button r0c2;
-    @FXML private Button r1c0;
-    @FXML private Button r1c1;
-    @FXML private Button r1c2;
-    @FXML private Button r2c0;
-    @FXML private Button r2c1;
-    @FXML private Button r2c2;
+    @FXML private Button r0c0, r0c1, r0c2, r1c0, r1c1, r1c2, r2c0, r2c1, r2c2;
 
     @FXML public void initialize() {
         ToggleGroup toggleGroup = new ToggleGroup();
