@@ -16,6 +16,7 @@ public class Controller {
     @FXML private RadioButton radiobutton3;
     @FXML private Button play;
     @FXML private Button r0c0, r0c1, r0c2, r1c0, r1c1, r1c2, r2c0, r2c1, r2c2;
+    private String winner;
 
     @FXML public void initialize() {
         ToggleGroup toggleGroup = new ToggleGroup();
@@ -27,7 +28,26 @@ public class Controller {
 
         radiobutton3.setToggleGroup(toggleGroup);
 
+        r0c0.setDisable(true);
+        r0c1.setDisable(true);
+        r0c2.setDisable(true);
+        r1c0.setDisable(true);
+        r1c1.setDisable(true);
+        r1c2.setDisable(true);
+        r2c0.setDisable(true);
+        r2c1.setDisable(true);
+        r2c2.setDisable(true);
+
         play.setOnMouseClicked(mouseEvent -> {
+            r0c0.setDisable(false);
+            r0c1.setDisable(false);
+            r0c2.setDisable(false);
+            r1c0.setDisable(false);
+            r1c1.setDisable(false);
+            r1c2.setDisable(false);
+            r2c0.setDisable(false);
+            r2c1.setDisable(false);
+            r2c2.setDisable(false);
             if (radiobutton1.isSelected()) {
                 startComputer();
                 System.out.println("Start Ordenador vs Ordenador");
@@ -55,11 +75,33 @@ public class Controller {
     }
 
     private void startPerson() {
+        int turn = 0;
+
+        while (winner == null) {
+            if (turn == 0) {
+
+                turn++;
+            } else if (turn == 1){
+
+                turn--;
+            }
+        }
     }
 
     private void startCompPers() {
     }
 
     private void startComputer() {
+        int turn = 0;
+
+        while (winner == null) {
+            if (turn == 0) {
+
+                turn++;
+            } else if (turn == 1){
+
+                turn--;
+            }
+        }
     }
 }

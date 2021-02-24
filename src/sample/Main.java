@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        String css = getClass().getResource("CSS/style.css").toExternalForm();
+        String css = getClass().getResource("style.css").toExternalForm();
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Tres en Raya");
         Scene scene = new Scene(root, 800, 450);
