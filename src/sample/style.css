@@ -1,3 +1,27 @@
 #mainPane {
-    -fx-background-color: #34c3eb;
+    -fx-background-color: #274060;
+}
+
+#button {
+    -fx-font-size: 38;
+    -fx-text-fill: white;
+    -fx-background-color: #335C81;
+    -fx-border-color: #65AFFF;
+}
+
+#radioButton {
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+}
+
+#startButton {
+    -fx-font-size: 28;
+    -fx-text-fill: white;
+    -fx-background-color: #1B2845;
+}
+
+#winner {
+    -fx-font-size: 28;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
 }

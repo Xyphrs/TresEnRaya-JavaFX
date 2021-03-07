@@ -17,20 +17,21 @@
             <RowConstraints minHeight="10" prefHeight="30" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="r0c0" mnemonicParsing="false" prefHeight="143" prefWidth="144" />
-            <Button fx:id="r0c1" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="1" />
-            <Button fx:id="r0c2" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="2" />
-            <Button fx:id="r1c0" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.rowIndex="1" />
-            <Button fx:id="r1c1" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="r1c2" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="r2c0" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.rowIndex="2" />
-            <Button fx:id="r2c1" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button fx:id="r2c2" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button id="button" fx:id="r0c0" mnemonicParsing="false" prefHeight="143" prefWidth="144" />
+            <Button id="button" fx:id="r0c1" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="1" />
+            <Button id="button" fx:id="r0c2" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="2" />
+            <Button id="button" fx:id="r1c0" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.rowIndex="1" />
+            <Button id="button" fx:id="r1c1" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button id="button" fx:id="r1c2" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button id="button" fx:id="r2c0" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.rowIndex="2" />
+            <Button id="button" fx:id="r2c1" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button id="button" fx:id="r2c2" mnemonicParsing="false" prefHeight="143" prefWidth="144" GridPane.columnIndex="2" GridPane.rowIndex="2" />
          </children>
       </GridPane>
-      <RadioButton fx:id="radiobutton1" layoutX="500" layoutY="41" mnemonicParsing="false" prefHeight="17" prefWidth="184" text="Ordenador vs Ordenador" />
-      <RadioButton fx:id="radiobutton2" layoutX="500.0" layoutY="80" mnemonicParsing="false" prefHeight="17" prefWidth="184" text="Persona vs Ordenador" />
-      <RadioButton fx:id="radiobutton3" layoutX="500.0" layoutY="121" mnemonicParsing="false" prefHeight="17" prefWidth="184" text="Persona vs Persona" />
-      <Button fx:id="play" layoutX="442.0" layoutY="189" mnemonicParsing="false" prefHeight="49" prefWidth="295" text="JUGAR" />
+      <RadioButton id="radioButton" fx:id="radiobutton1" layoutX="500.0" layoutY="41" mnemonicParsing="false" prefHeight="17" prefWidth="302.0" text="Ordenador vs Ordenador" />
+      <RadioButton id="radioButton" fx:id="radiobutton2" layoutX="500.0" layoutY="80" mnemonicParsing="false" prefHeight="17" prefWidth="302.0" text="Persona vs Ordenador" />
+      <RadioButton id="radioButton" fx:id="radiobutton3" layoutX="500.0" layoutY="121" mnemonicParsing="false" prefHeight="17" prefWidth="302.0" text="Persona vs Persona" />
+      <Button id="startButton" fx:id="play" layoutX="442.0" layoutY="189" mnemonicParsing="false" prefHeight="49" prefWidth="295" text="JUGAR" />
+      <Label id="winner" fx:id="winner" layoutX="504.0" layoutY="326.0" text="Label" />
    </children>
 </AnchorPane>

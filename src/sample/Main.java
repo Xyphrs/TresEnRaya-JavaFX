@@ -13,7 +13,7 @@ public class Main extends Application {
         String css = getClass().getResource("style.css").toExternalForm();
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Tres en Raya");
-        Scene scene = new Scene(root, 800, 450);
+        Scene scene = new Scene(root, 820, 450);
         scene.getStylesheets().add(css);
         primaryStage.setScene(scene);
         primaryStage.show();
